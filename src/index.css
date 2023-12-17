@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Eudoxus Sans", sans-serif;
+}
+
+.bg-gradient {
+  background-image: rgb(0, 168, 255);
+  background-image: radial-gradient(
+    circle,
+    rgba(0, 168, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 35%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.img-shadow {
+  filter: drop-shadow(0 20px 13px rgb(0, 168, 255));
+}
+
+.bgr {
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(281deg 100% 21%) 8%,
+    hsl(304deg 100% 23%) 17%,
+    hsl(319deg 100% 30%) 25%,
+    hsl(329deg 100% 36%) 33%,
+    hsl(336deg 100% 41%) 42%,
+    hsl(346deg 83% 51%) 50%,
+    hsl(3deg 95% 61%) 58%,
+    hsl(17deg 100% 59%) 67%,
+    hsl(30deg 100% 55%) 75%,
+    hsl(40deg 100% 50%) 83%,
+    hsl(48deg 100% 50%) 92%,
+    hsl(55deg 100% 50%) 100%
+  );
+}
+
+html {
+  scroll-behavior: smooth;
+}
